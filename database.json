@@ -1,0 +1,573 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "sport": "Football",
+      "homeTeam": "Team 1A",
+      "awayTeam": "Team 1B",
+      "startTime": "2025-10-30T11:46:54.885Z",
+      "odds": {
+        "homeWin": 1.8276036883534625,
+        "draw": 1.5626733142780889,
+        "awayWin": 1.9381623507556476
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "2",
+      "sport": "Basketball",
+      "homeTeam": "Team 2A",
+      "awayTeam": "Team 2B",
+      "startTime": "2025-10-30T12:46:54.891Z",
+      "odds": {
+        "homeWin": 1.466070901311754,
+        "draw": 2.0985147069496692,
+        "awayWin": 2.307850256895122
+      },
+      "status": "live"
+    },
+    {
+      "id": "3",
+      "sport": "Hockey",
+      "homeTeam": "Team 3A",
+      "awayTeam": "Team 3B",
+      "startTime": "2025-10-30T13:46:54.891Z",
+      "odds": {
+        "homeWin": 1.3561145126913985,
+        "draw": 1.2272976188863978,
+        "awayWin": 1.7677214935212047
+      },
+      "status": "live"
+    },
+    {
+      "id": "4",
+      "sport": "Football",
+      "homeTeam": "Team 4A",
+      "awayTeam": "Team 4B",
+      "startTime": "2025-10-30T14:46:54.891Z",
+      "odds": {
+        "homeWin": 2.515854892508327,
+        "draw": 0.03413853414971335,
+        "awayWin": 0.25622061119331585
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "5",
+      "sport": "Basketball",
+      "homeTeam": "Team 5A",
+      "awayTeam": "Team 5B",
+      "startTime": "2025-10-30T15:46:54.891Z",
+      "odds": {
+        "homeWin": 2.179067259806411,
+        "draw": 1.0686625118159945,
+        "awayWin": 1.1682820936409417
+      },
+      "status": "live"
+    },
+    {
+      "id": "6",
+      "sport": "Hockey",
+      "homeTeam": "Team 6A",
+      "awayTeam": "Team 6B",
+      "startTime": "2025-10-30T16:46:54.891Z",
+      "odds": {
+        "homeWin": 0.7370835632009556,
+        "draw": 1.9042804229603187,
+        "awayWin": 2.9732070134589033
+      },
+      "status": "finished"
+    },
+    {
+      "id": "7",
+      "sport": "Football",
+      "homeTeam": "Team 7A",
+      "awayTeam": "Team 7B",
+      "startTime": "2025-10-30T17:46:54.891Z",
+      "odds": {
+        "homeWin": 1.4970703572539312,
+        "draw": 1.3603559598174886,
+        "awayWin": 2.658334461579348
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "8",
+      "sport": "Basketball",
+      "homeTeam": "Team 8A",
+      "awayTeam": "Team 8B",
+      "startTime": "2025-10-30T18:46:54.891Z",
+      "odds": {
+        "homeWin": 2.6956470396236405,
+        "draw": 2.7432660816026706,
+        "awayWin": 0.6381280045871762
+      },
+      "status": "live"
+    },
+    {
+      "id": "9",
+      "sport": "Hockey",
+      "homeTeam": "Team 9A",
+      "awayTeam": "Team 9B",
+      "startTime": "2025-10-30T19:46:54.891Z",
+      "odds": {
+        "homeWin": 2.154988439096412,
+        "draw": 1.393496978292866,
+        "awayWin": 0.8017825559705327
+      },
+      "status": "finished"
+    },
+    {
+      "id": "10",
+      "sport": "Football",
+      "homeTeam": "Team 10A",
+      "awayTeam": "Team 10B",
+      "startTime": "2025-10-30T20:46:54.892Z",
+      "odds": {
+        "homeWin": 2.161893919537774,
+        "draw": 1.3267659728716081,
+        "awayWin": 2.1300528597452404
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "11",
+      "sport": "Basketball",
+      "homeTeam": "Team 11A",
+      "awayTeam": "Team 11B",
+      "startTime": "2025-10-30T21:46:54.892Z",
+      "odds": {
+        "homeWin": 0.8164649624932854,
+        "draw": 1.599714328883049,
+        "awayWin": 2.1642356368666427
+      },
+      "status": "live"
+    },
+    {
+      "id": "12",
+      "sport": "Hockey",
+      "homeTeam": "Team 12A",
+      "awayTeam": "Team 12B",
+      "startTime": "2025-10-30T22:46:54.892Z",
+      "odds": {
+        "homeWin": 0.22553949487443337,
+        "draw": 0.1302075244714329,
+        "awayWin": 2.8467063607475342
+      },
+      "status": "finished"
+    },
+    {
+      "id": "13",
+      "sport": "Football",
+      "homeTeam": "Team 13A",
+      "awayTeam": "Team 13B",
+      "startTime": "2025-10-30T23:46:54.892Z",
+      "odds": {
+        "homeWin": 0.4848535591640357,
+        "draw": 1.7014415113012515,
+        "awayWin": 0.9423726462123398
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "14",
+      "sport": "Basketball",
+      "homeTeam": "Team 14A",
+      "awayTeam": "Team 14B",
+      "startTime": "2025-10-31T00:46:54.892Z",
+      "odds": {
+        "homeWin": 0.8863822971132771,
+        "draw": 2.773610103041907,
+        "awayWin": 0.6183237710105312
+      },
+      "status": "live"
+    },
+    {
+      "id": "15",
+      "sport": "Hockey",
+      "homeTeam": "Team 15A",
+      "awayTeam": "Team 15B",
+      "startTime": "2025-10-31T01:46:54.892Z",
+      "odds": {
+        "homeWin": 1.3931006247462745,
+        "draw": 0.5880877152800585,
+        "awayWin": 2.742500310927551
+      },
+      "status": "finished"
+    },
+    {
+      "id": "16",
+      "sport": "Football",
+      "homeTeam": "Team 16A",
+      "awayTeam": "Team 16B",
+      "startTime": "2025-10-31T02:46:54.892Z",
+      "odds": {
+        "homeWin": 2.0610274560290263,
+        "draw": 2.734731915195926,
+        "awayWin": 0.45654322272184866
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "17",
+      "sport": "Basketball",
+      "homeTeam": "Team 17A",
+      "awayTeam": "Team 17B",
+      "startTime": "2025-10-31T03:46:54.892Z",
+      "odds": {
+        "homeWin": 0.3202360267517699,
+        "draw": 0.35924189212423063,
+        "awayWin": 2.7907247261327104
+      },
+      "status": "live"
+    },
+    {
+      "id": "18",
+      "sport": "Hockey",
+      "homeTeam": "Team 18A",
+      "awayTeam": "Team 18B",
+      "startTime": "2025-10-31T04:46:54.892Z",
+      "odds": {
+        "homeWin": 0.34677955845360886,
+        "draw": 0.6961386625161818,
+        "awayWin": 0.7123575576911427
+      },
+      "status": "finished"
+    },
+    {
+      "id": "19",
+      "sport": "Football",
+      "homeTeam": "Team 19A",
+      "awayTeam": "Team 19B",
+      "startTime": "2025-10-31T05:46:54.892Z",
+      "odds": {
+        "homeWin": 0.5596014826068403,
+        "draw": 2.7581874025012656,
+        "awayWin": 2.7457642017293624
+      },
+      "status": "upcoming"
+    },
+    {
+      "id": "20",
+      "sport": "Basketball",
+      "homeTeam": "Team 20A",
+      "awayTeam": "Team 20B",
+      "startTime": "2025-10-31T06:46:54.892Z",
+      "odds": {
+        "homeWin": 2.0097022053226885,
+        "draw": 2.5024543694149037,
+        "awayWin": 2.6897544648241762
+      },
+      "status": "live"
+    }
+  ],
+  "bets": [
+    {
+      "id": "7035",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "draw",
+          "stake": 5,
+          "odds": 1.2272976188863978,
+          "potentialPayout": 6.14
+        },
+        {
+          "gameId": "7",
+          "betType": "away",
+          "stake": 3,
+          "odds": 2.658334461579348,
+          "potentialPayout": 7.98
+        }
+      ],
+      "totalStake": 8,
+      "totalPotentialPayout": 14.11,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T11:57:24.163Z"
+    },
+    {
+      "id": "fc5e",
+      "selections": [
+        {
+          "gameId": "20",
+          "betType": "draw",
+          "stake": 5,
+          "odds": 2.5024543694149037,
+          "potentialPayout": 12.51
+        },
+        {
+          "gameId": "14",
+          "betType": "draw",
+          "stake": 3,
+          "odds": 2.773610103041907,
+          "potentialPayout": 8.32
+        },
+        {
+          "gameId": "8",
+          "betType": "away",
+          "stake": 2,
+          "odds": 0.6381280045871762,
+          "potentialPayout": 1.28
+        }
+      ],
+      "totalStake": 10,
+      "totalPotentialPayout": 22.11,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:02:02.913Z"
+    },
+    {
+      "id": "f3c0",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 50,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 91.38
+        }
+      ],
+      "totalStake": 50,
+      "totalPotentialPayout": 91.38,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:02:35.352Z"
+    },
+    {
+      "id": "9dc9",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 9.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:02:43.257Z"
+    },
+    {
+      "id": "d5cf",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 9.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:03:14.712Z"
+    },
+    {
+      "id": "2b3c",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 40,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 54.24
+        }
+      ],
+      "totalStake": 40,
+      "totalPotentialPayout": 54.24,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:03:45.094Z"
+    },
+    {
+      "id": "1290",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 4,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 5.42
+        }
+      ],
+      "totalStake": 4,
+      "totalPotentialPayout": 5.42,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:03:58.464Z"
+    },
+    {
+      "id": "5dd2",
+      "selections": [
+        {
+          "gameId": "7",
+          "betType": "draw",
+          "stake": 2,
+          "odds": 1.3603559598174886,
+          "potentialPayout": 2.72
+        }
+      ],
+      "totalStake": 2,
+      "totalPotentialPayout": 2.72,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:05:46.940Z"
+    },
+    {
+      "id": "115c",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 2,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 3.66
+        }
+      ],
+      "totalStake": 2,
+      "totalPotentialPayout": 3.66,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:06:57.678Z"
+    },
+    {
+      "id": "e55c",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 6.78
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 6.78,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:07:18.543Z"
+    },
+    {
+      "id": "3a6c",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        },
+        {
+          "gameId": "5",
+          "betType": "draw",
+          "stake": 5,
+          "odds": 1.0686625118159945,
+          "potentialPayout": 5.34
+        }
+      ],
+      "totalStake": 10,
+      "totalPotentialPayout": 14.48,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:08:25.727Z"
+    },
+    {
+      "id": "6666",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 9.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:08:47.900Z"
+    },
+    {
+      "id": "eb0a",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 9.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:12:09.064Z"
+    },
+    {
+      "id": "b186",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 6.78
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 6.78,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:12:23.704Z"
+    },
+    {
+      "id": "1f2c",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 2,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 3.66
+        },
+        {
+          "gameId": "7",
+          "betType": "draw",
+          "stake": 4,
+          "odds": 1.3603559598174886,
+          "potentialPayout": 5.44
+        }
+      ],
+      "totalStake": 6,
+      "totalPotentialPayout": 9.1,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:13:32.736Z"
+    },
+    {
+      "id": "5810",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 4,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 7.31
+        }
+      ],
+      "totalStake": 4,
+      "totalPotentialPayout": 7.31,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:15:12.950Z"
+    },
+    {
+      "id": "ed26",
+      "selections": [
+        {
+          "gameId": "5",
+          "betType": "home",
+          "stake": 45,
+          "odds": 2.179067259806411,
+          "potentialPayout": 98.06
+        }
+      ],
+      "totalStake": 45,
+      "totalPotentialPayout": 98.06,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:16:12.064Z"
+    }
+  ]
+}
