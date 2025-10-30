@@ -37,6 +37,3 @@ npm run dev
 npm run build
 ```
 # vue-test-task
-# vue-test-task
-# vue-test-task
-# vue-test-task
