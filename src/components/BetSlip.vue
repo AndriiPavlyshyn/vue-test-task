@@ -89,15 +89,23 @@
 		:selections="betsStore.selections"
 		:totalStake="betsStore.totalStake"
 		:totalPotentialPayout="totalPayout"
-		@close="betsStore.clear()"
+		@close="clearFlow()"
+	/>
+
+	<ErrorModal
+		v-if="betsStore.error"
+		:message="betsStore.error"
+		@retry="betsStore.retry()"
+		@close="betsStore.resetFlags()"
 	/>
 </template>
 
 <script setup lang="ts">
-	import SuccessModal      from '@/components/SuccessModal.vue';
-	import { CONFIG }        from '@/config';
-	import { computed } from 'vue'
-	import { useBetsStore }  from '@/stores/useBetsStore'
+	import ErrorModal       from '@/components/ErrorModal.vue';
+	import SuccessModal     from '@/components/SuccessModal.vue';
+	import { CONFIG }       from '@/config';
+	import { computed }     from 'vue'
+	import { useBetsStore } from '@/stores/useBetsStore'
 
 	const betsStore = useBetsStore();
 	const { maxBets } = CONFIG;
@@ -149,6 +157,11 @@
 
 	function getBetId(): string {
 		return Math.floor(Math.random() * 1000000).toString();
+	}
+
+	function clearFlow(): void {
+		betsStore.resetFlags();
+		betsStore.clear();
 	}
 
 	async function placeBet() {

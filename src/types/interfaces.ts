@@ -23,4 +23,10 @@ export interface BetSelection {
 	odds: number
 }
 
-
+export interface Payload {
+	selections: BetSelection[]
+	totalStake: number
+	totalPotentialPayout: number
+	acceptedTerms: boolean
+	timestamp: string
+}

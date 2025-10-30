@@ -1,11 +1,12 @@
-import { BetSelection } from '@/types/interfaces';
-import axios            from 'axios';
+import { BetSelection, Payload } from '@/types/interfaces';
+import axios                     from 'axios';
 import { defineStore }        from 'pinia'
 
 export const useBetsStore = defineStore('bets', {
 	state: () => ({
 		selections: [] as BetSelection[],
 		acceptedTerms: false as boolean,
+		retryPayload: null as Payload | null,
 		loading: false as boolean,
 		success: false as boolean,
 		error: null as string | null
@@ -26,22 +27,22 @@ export const useBetsStore = defineStore('bets', {
 
 	actions: {
 		async placeBet() {
-			this.loading = true
-			this.success = false
-			this.error = null
+			this.loading = true;
+			this.success = false;
+			this.error = null;
 
 			try {
 				await new Promise((resolve) => {
 					return setTimeout(resolve, 1500);
 				})
 
-				const payload = {
-					selections: this.selections.map((selection: BetSelection) => ({
-						gameId: selection.game.id,
-						betType: selection.betType,
-						stake: selection.stake,
-						odds: selection.odds,
-						potentialPayout: +(selection.stake * selection.odds).toFixed(2)
+				const payload: Payload = {
+					selections: this.selections.map(({ game, betType, stake, odds }: BetSelection) => ({
+						gameId: game.id,
+						betType,
+						stake,
+						odds,
+						potentialPayout: +(stake * odds).toFixed(2)
 					})),
 					totalStake: +this.totalStake.toFixed(2),
 					totalPotentialPayout: +this.totalPayout.toFixed(2),
@@ -49,9 +50,9 @@ export const useBetsStore = defineStore('bets', {
 					timestamp: new Date().toISOString()
 				}
 
-				const response = await axios.post('http://localhost:3001/bets', payload)
+				this.retryPayload = payload;
 
-				console.log(response);
+				await this.createBet(payload);
 
 				this.success = true;
 			} catch (e: any) {
@@ -60,27 +61,56 @@ export const useBetsStore = defineStore('bets', {
 				this.loading = false;
 			}
 		},
+		async retry() {
+			this.error = null;
+			this.loading = true;
+
+			try {
+				if (!this.retryPayload) {
+				  console.error('No retry payload.');
+
+					return;
+				}
+
+				await this.createBet(this.retryPayload);
+
+				this.success = true;
+			} catch (error: any) {
+				this.error = error.message;
+			} finally {
+				this.loading = false;
+			}
+		},
+		async createBet(payload: Payload) {
+			await axios.post('http://localhost:3001/bets', payload);
+		},
 		addSelection(selection: BetSelection) {
+			const {betType, odds, game} = selection;
 			const exists = this.selections.find((selectionItem: BetSelection) => {
-				return selectionItem.game.id === selection.game.id;
+				return selectionItem.game.id === game.id;
 			})
 
 			if (exists) {
-				exists.betType = selection.betType;
-				exists.odds = selection.odds;
+				exists.betType = betType;
+				exists.odds = odds;
 			} else {
 				this.selections.push(selection);
 			}
 		},
 		removeSelection(gameId: string) {
-			this.selections = this.selections.filter((selection: BetSelection) => {
-				return selection.game.id !== gameId;
+			this.selections = this.selections.filter(({ game }: BetSelection) => {
+				return game.id !== gameId;
 			})
 		},
 		clear() {
-			this.success = false;
 			this.selections = [];
 			this.acceptedTerms = false;
+			this.retryPayload = null;
+		},
+		resetFlags() {
+			this.success = false;
+			this.error = null;
+			this.loading = false;
 		}
 	}
 })

@@ -29,7 +29,7 @@
 					<div>
 						<div class="font-semibold">{{ game.homeTeam }} vs {{ game.awayTeam }}</div>
 						<div class="text-sm text-gray-500">
-							{{ new Date(game.startTime).toLocaleString() }} • {{ game.sport }} • {{ game.status }}
+							{{ new Date(game.startTime).toLocaleString() }} | {{ game.sport }} | {{ game.status }}
 						</div>
 					</div>
 				</div>
@@ -110,7 +110,7 @@
 	}
 
 	function isButtonDisabled(status: GameStatuses): boolean {
-		return status === GameStatuses.Finished || isEnoughSelections.value;
+		return status === GameStatuses.Finished || isEnoughSelections.value || betsStore.loading;
 	}
 
 	function getFixedNumber(number: number): string {

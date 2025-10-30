@@ -568,6 +568,221 @@
       "totalPotentialPayout": 98.06,
       "acceptedTerms": true,
       "timestamp": "2025-10-30T12:16:12.064Z"
+    },
+    {
+      "id": "e513",
+      "selections": [
+        {
+          "gameId": "5",
+          "betType": "home",
+          "stake": 5,
+          "odds": 2.179067259806411,
+          "potentialPayout": 10.9
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 10.9,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:42:29.979Z"
+    },
+    {
+      "id": "769d",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 6.78
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 6.78,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:43:03.561Z"
+    },
+    {
+      "id": "dddf",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "draw",
+          "stake": 5,
+          "odds": 1.2272976188863978,
+          "potentialPayout": 6.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 6.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:43:53.763Z"
+    },
+    {
+      "id": "de4f",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 9.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:47:36.803Z"
+    },
+    {
+      "id": "bf9d",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 9.14
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 9.14,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:51:32.632Z"
+    },
+    {
+      "id": "9cd4",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 42,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 56.96
+        }
+      ],
+      "totalStake": 42,
+      "totalPotentialPayout": 56.96,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:51:55.510Z"
+    },
+    {
+      "id": "1ce9",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 2,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 3.66
+        }
+      ],
+      "totalStake": 2,
+      "totalPotentialPayout": 3.66,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:55:00.713Z"
+    },
+    {
+      "id": "430e",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 2,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 3.66
+        }
+      ],
+      "totalStake": 2,
+      "totalPotentialPayout": 3.66,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:56:30.653Z"
+    },
+    {
+      "id": "7e14",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "draw",
+          "stake": 421,
+          "odds": 1.2272976188863978,
+          "potentialPayout": 516.69
+        }
+      ],
+      "totalStake": 421,
+      "totalPotentialPayout": 516.69,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:56:40.326Z"
+    },
+    {
+      "id": "c461",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 6.78
+        }
+      ],
+      "totalStake": 5,
+      "totalPotentialPayout": 6.78,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:58:00.576Z"
+    },
+    {
+      "id": "2c59",
+      "selections": [
+        {
+          "gameId": "1",
+          "betType": "home",
+          "stake": 44,
+          "odds": 1.8276036883534625,
+          "potentialPayout": 80.41
+        }
+      ],
+      "totalStake": 44,
+      "totalPotentialPayout": 80.41,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T12:58:17.576Z"
+    },
+    {
+      "id": "aef7",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 4,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 5.42
+        }
+      ],
+      "totalStake": 4,
+      "totalPotentialPayout": 5.42,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T13:02:44.682Z"
+    },
+    {
+      "id": "9df9",
+      "selections": [
+        {
+          "gameId": "3",
+          "betType": "home",
+          "stake": 5,
+          "odds": 1.3561145126913985,
+          "potentialPayout": 6.78
+        },
+        {
+          "gameId": "1",
+          "betType": "draw",
+          "stake": 325,
+          "odds": 1.5626733142780889,
+          "potentialPayout": 507.87
+        }
+      ],
+      "totalStake": 330,
+      "totalPotentialPayout": 514.65,
+      "acceptedTerms": true,
+      "timestamp": "2025-10-30T13:02:58.908Z"
     }
   ]
 }
